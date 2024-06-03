@@ -14,7 +14,7 @@ namespace ExerciseTracking
 
         public override double GetDistance()
         {
-            return laps * 50 / 1000.0 * 0.62; // Convertir a millas
+            return laps * 50 / 1000.0 * 0.62; 
         }
 
         public override double GetSpeed()
