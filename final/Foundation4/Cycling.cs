@@ -4,7 +4,7 @@ namespace ExerciseTracking
 {
     public class Cycling : Activity
     {
-        private double speed; // en mph
+        private double speed; 
 
         public Cycling(DateTime date, int duration, double speed)
             : base(date, duration)
