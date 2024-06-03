@@ -19,7 +19,7 @@ namespace YouTubeVideoManager
     {
         public string Title { get; private set; }
         public string Author { get; private set; }
-        public int Duration { get; private set; } // Duración en segundos
+        public int Duration { get; private set; } 
 
         // Lista privada para almacenar los comentarios
         private List<Comment> Comments { get; set; }
